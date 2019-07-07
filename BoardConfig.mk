@@ -1,6 +1,8 @@
 # Inherit from common
 include device/samsung/j5x-common/BoardConfigCommon.mk
 
+ANDROID_COMPILE_WITH_JACK := false
+
 LOCAL_PATH := device/samsung/j5xnlte
 
 # Asserts
